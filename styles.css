@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 50px;
+    border: 3px solid #000;
+    width: 60%;
+    margin: 20px auto;
+    position: relative;
+}
+
+h1 {
+    grid-column: 1/-1;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 20px 0 15px 0;
+}
+
+li {
+    list-style: square;
+    margin: 0 0 10px 20px;
+}
+
+.shipping {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.shoes-color {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.black {
+    background: #000;
+    width: 25px;
+    height: 25px;
+}
+
+.red {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+}
+
+.blue {
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+}
+
+
+.yellow {
+    background-color: yellow;
+    width: 25px;
+    height: 25px;
+}
+
+.green {
+    background-color: green;
+    width: 25px;
+    height: 25px;
+}
+
+.brown {
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+}
+
+.btn1 {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+.btn2 {
+    grid-column: 1/-1;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #000;
+    border: none;
+    border-top: 3px solid #000;
+    color: #fff;
+}
+
+.btn2:hover {
+    color: #000;
+    background: transparent;
+}
